@@ -89,15 +89,17 @@ After setting up with GitHub, any changes you push to your repository will autom
 2. Commit and push to GitHub
 3. Netlify automatically deploys the updated version
 
-## Extensions and Improvements
+## Extensions Implemented
 
-Here are some ways you could extend this project:
+None but I did improve the responsiveness by a bit. 
 
-- Add filter buttons to show Pokémon by type
-- Implement a "Catch Pokémon" feature using localStorage
-- Create a detailed view modal for each Pokémon
-- Add search functionality to find specific Pokémon
-- Implement sound effects for card flips and Pokémon cries
+
+## Challanges Completed
+All of them.
+
+## Challanges Faced
+
+None.
 
 ## Documentation
 
