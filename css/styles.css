@@ -128,7 +128,7 @@ header p {
 
 .card-inner {
   position: relative;
-  width: 100%;
+  width: 276px;
   height: 100%;
   transition: transform 0.8s;
   transform-style: preserve-3d;
@@ -143,7 +143,7 @@ header p {
 .card-front,
 .card-back {
   position: absolute;
-  width: 100%;
+  width: 276px;
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -172,10 +172,15 @@ header p {
   justify-content: space-between;
 }
 
+.card-back img {
+  width: 110px;
+}
+
 .pokeball-img {
   width: 80%;
   max-width: 150px;
   transition: transform 0.3s ease;
+  pointer-events: none;
 }
 
 .card:hover .pokeball-img {
@@ -421,12 +426,8 @@ footer .fa-heart {
   }
 
   .card-grid {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
-  }
-
-  .card {
-    height: 250px;
   }
 
   .pokemon-name {
@@ -441,11 +442,7 @@ footer .fa-heart {
 
 @media (max-width: 480px) {
   .card-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .card {
-    height: 200px;
+    grid-template-columns: 1fr;
   }
 
   .pokemon-stats {
